@@ -1,8 +1,0 @@
-﻿@page "{id:int}"
-@model Lab6.Pages.Students.DeleteModel
-<h2>Delete Student</h2>
-<p>Are you sure you want to delete <strong>@Model.Student.FirstName @Model.Student.LastName</strong>?</p>
-<form method="post">
-    <button type="submit">Delete</button>
-    <a asp-page="Index">Cancel</a>
-</form>
